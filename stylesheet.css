@@ -19,7 +19,7 @@ h1{
 
 .right-links ul{
 display: flex;
-border: red 2px solid;
+/*border: red 2px solid;*/
 
 }
 li, li a{
@@ -37,6 +37,7 @@ align-items: flex-start;
 padding: 48px;
 background-color: #1f2937;
 color: white;
+flex-wrap: wrap;
 }
 .boxtwo div{
     display: flex;
@@ -44,7 +45,7 @@ color: white;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 24px;
-    border: red 2px solid;
+    /*border: red 2px solid;*/
     flex-basis: 500px;
     flex-shrink: 1;
     max-width: 50%;
@@ -67,15 +68,18 @@ border-radius: 15px;
 }
 .boxtwo img{
     display: flex;
-    flex-basis: 25px;
+    
+    
  flex-shrink: 1;
- max-width:500px ;
+ max-width:600px ;
  height: auto;
 }
 
 .boxthree{
 display: flex;
 flex-direction: column;
+background-color: white;
+padding: 32px;
 }
 h3{
     flex:1 1 100%;
@@ -89,7 +93,41 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+.content img{
+    max-width: 300px;
+}
+
+.boxfour{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #e5e7eb;
+
+}
+.boxfour p, .romans{
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937 ;
+    max-width: 50%;
+    padding: 36px;
+}
+.romans{
+    font-weight: 700;
+    display: flex;
+margin-top: -90px;
+    margin-right: -590px;
+}
+
+
+
+
+
+
+
+
 
 
 
