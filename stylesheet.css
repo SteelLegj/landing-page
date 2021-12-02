@@ -1,4 +1,95 @@
 body{
-    background-color: darkslategrey;
+    background-color: rgb(152, 184, 184);
 /*set to black while i edit at night*/
 }
+
+.boxone{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 24px;
+background-color: #1f2937;
+color: white;
+}
+h1{ 
+    font-weight: 700;
+    padding-left: 68px;
+    align-self: center;
+}
+
+.right-links ul{
+display: flex;
+border: red 2px solid;
+
+}
+li, li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white; 
+    padding:8px 16px;
+
+}
+
+.boxtwo{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding: 48px;
+background-color: #1f2937;
+color: white;
+}
+.boxtwo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    border: red 2px solid;
+    flex-basis: 500px;
+    flex-shrink: 1;
+    max-width: 50%;
+    align-self: center;
+}
+
+.boxtwo h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+button{
+font-size: 16px;
+background-color: #3882f6;
+padding: 8px 16px;
+border-radius: 15px;
+}
+
+.boxtwo p{
+    font-size: 18px;
+}
+.boxtwo img{
+    display: flex;
+    flex-basis: 25px;
+ flex-shrink: 1;
+ max-width:500px ;
+ height: auto;
+}
+
+.boxthree{
+display: flex;
+flex-direction: column;
+}
+h3{
+    flex:1 1 100%;
+    justify-self: center;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
